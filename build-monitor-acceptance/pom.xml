@@ -13,7 +13,7 @@
 
   <properties>
     <byte-buddy.version>1.15.10</byte-buddy.version>
-    <serenity.version>4.2.8</serenity.version>
+    <serenity.version>4.2.9</serenity.version>
     <!-- TODO until in parent POM -->
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
