@@ -1,8 +1,11 @@
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
     <f:section title="${%Build Monitor}" name="build-monitor">
-        <f:entry title="${%Help make Build Monitor better}" help="${descriptor.getHelpFile('permissionToCollectAnonymousUsageStatistics')}">
-            <f:checkbox field="permissionToCollectAnonymousUsageStatistics" checked="${it.descriptor.permissionToCollectAnonymousUsageStatistics}" />
+        <f:entry>
+            <f:checkbox field="permissionToCollectAnonymousUsageStatistics"
+                        title="${%Help make Build Monitor better}"
+                        help="${descriptor.getHelpFile('permissionToCollectAnonymousUsageStatistics')}"
+                        />
         </f:entry>
     </f:section>
 </j:jelly>
