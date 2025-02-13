@@ -54,8 +54,7 @@
                 <li data-ng-show="!!project.badges &amp;&amp; (project.config.displayBadges == 'Always' || (project.config.displayBadges == 'UserSetting' &amp;&amp; settings.showBadges == 1))" class="badges">
                     <span class="badge"
                           data-ng-repeat="badge in project.badges track by $index"
-                          data-ng-style="{ 'border': badge.border + ' solid ' + badge.borderColor, 'background': badge.background, 'color': badge.color }">
-                        {{ badge.text }}
+                          data-ng-style="{ 'border': badge.border + ' solid ' + badge.borderColor, 'background': badge.background, 'color': badge.color }" ng-bind-html="badge.text">
                     </span>
                 </li>
             </ul>
