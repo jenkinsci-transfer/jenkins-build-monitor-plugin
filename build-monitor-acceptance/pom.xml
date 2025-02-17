@@ -12,7 +12,7 @@
   <name>Build Monitor Acceptance Tests</name>
 
   <properties>
-    <byte-buddy.version>1.17.0</byte-buddy.version>
+    <byte-buddy.version>1.17.1</byte-buddy.version>
     <serenity.version>4.2.16</serenity.version>
   </properties>
 
